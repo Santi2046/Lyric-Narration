@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p>I</p></person>
+          <person xml:id="listener"><p>Operator</p></person>
+          <person xml:id="POFT"><p>She</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#opt-01"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#opt-02"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="corraborate" ref="#opt-03"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-04"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#opt-05"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#opt-06"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#opt-07"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-08"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepacy" ref="#opt-09"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-10"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-11"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#opt-12"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#opt-13"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-14"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-15"/>
+      <relation active="#speaker" passive="#listener" type="repetition" subtype="unrelated" ref="#opt-16"/>
+      <relation active="#speaker" passive="#listener" type="repetition" subtype="unrelated" ref="#opt-17"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#opt-18"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#opt-19"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-20"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-21"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#opt-22"/>
+      <relation active="#speaker" passive="#listener" type="repetition" subtype="unrelated" ref="#opt-23"/>
+    </listRelation>
+  </standOff>
+  <text>
+      <body>
+          <head>Operator (That's Not the Way it Feels)</head>
+          <div type="verse">
+            <ab>
+              <seg xml:id="opt-01" type="knowledgestate" subtype="request" style="color:purple">Operator, oh, could you help me place this call?</seg>
+              <seg xml:id="opt-02" type="knowledgestate" style="color:red">See the number on the matchbook is old and faded</seg>
+              <seg xml:id="opt-03" type="knowledgestate" style="color:red">She's living in L.A.
+              With my best old ex-friend, Ray</seg>
+              <seg xml:id="opt-04" type="knowledgestate" style="color:red">Guy, she said she knew well, and sometimes hated</seg>
+            </ab>
+          </div>
+          <div type="chorus">
+            <ab>
+              <seg xml:id="opt-05" type="knowledgestate" subtype="uncertain" style="color:olive">But isn't that the way they say it goes?</seg>
+              <seg xml:id="opt-06" type="knowledgestate" subtype="request" style="color:purple">Well, let's forget all that</seg>
+              <seg xml:id="opt-07" type="knowledgestate" subtype="request" style="color:purple">And give me the number if you can find it</seg>
+              <seg xml:id="opt-08" type="knowledgestate" style="color:red">So, I can call just to tell 'em I'm fine</seg>
+              <seg xml:id="opt-09" type="knowledgestate" style="color:red">And to show I've overcome the blow
+              I've learned to take it well</seg>
+              <seg xml:id="opt-10" type="knowledgestate">I only wish my words could just convince myself
+              That it just wasn't real</seg>
+              <seg xml:id="opt-11" type="knowledgestate" style="color:red">But that's not the way it feels</seg>
+            </ab>
+          </div>
+          <div type="verse">
+            <ab>
+              <seg xml:id="opt-12" type="knowledgestate" subtype="request" style="color:purple">Operator, oh, could you help me place this call?</seg>
+              <seg xml:id="opt-13" type="knowledgestate" style="color:red">'Cause I can't read the number that you just gave me</seg>
+              <seg xml:id="opt-14" type="knowledgestate" style="color:red">There's something in my eyes</seg>
+              <seg xml:id="opt-15" type="knowledgestate" style="color:red">You know it happens every time
+              I think about a love that I thought would save me</seg>
+            </ab>
+          </div>
+          <div type="chorus">
+            <ab>
+              <seg xml:id="opt-16" type="knowledgestate" subtype="repetition" style="color:cyan">But isn't that the way they say it goes?
+              Well, let's forget all that
+              And give me the number if you can find it
+              So I can call just to tell 'em I'm fine
+              And to show I've overcome the blow
+              I've learned to take it well
+              I only wish my words could just convince myself
+              That it just wasn't real
+              But that's not the way it feels</seg>, no, no, no, no
+              <seg xml:id="opt-17" type="knowledgestate" subtype="repetition" style="color:cyan">That's not the way it feels</seg>
+            </ab>
+          </div>
+          <div type="verse">
+            <ab>
+              <seg xml:id="opt-18" type="knowledgestate" subtype="request" style="color:purple">Operator, oh, let's forget about this call</seg>
+              <seg xml:id="opt-19" type="knowledgestate" style="color:red">There's no one there I really wanted to talk to</seg>
+              <seg xml:id="opt-20" type="knowledgestate" style="color:red">Thank you for your time</seg>
+              <seg xml:id="opt-21" type="knowledgestate" style="color:red">Ah, you've been so much more than kind</seg>
+              <seg xml:id="opt-22" type="knowledgestate" style="color:red">You can keep the dime</seg>
+            </ab>
+          </div>
+          <div type="chorus">
+            <ab xml:id="opt-23" type="knowledgestate" subtype="repetition" style="color:cyan">
+              But isn't that the way they say it goes?
+              Well, let's forget all that
+              And give me the number if you can find it
+              So I can call just to tell 'em I'm fine
+              And to show I've overcome the blow
+              I've learned to take it well
+              I only wish my words could just convince myself
+              That it just wasn't real
+              But that's not the way it feels
+            </ab>
+          </div>
+      </body>
+  </text>
+</TEI>

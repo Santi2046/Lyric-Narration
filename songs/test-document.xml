@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p></p></person>
+          <person xml:id="narrator"><p></p></person>
+          <person xml:id="listener"><p></p></person>
+          <person xml:id="performer"><p></p></person>
+          <person xml:id="audience"><p></p></person>
+          <person xml:id="POFT"><p></p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#" passive="#" type="" subtype="" ref="#test-01"/>
+      <relation active="#" passive="#" type="" subtype="" ref="#test-02"/>
+
+    </listRelation>
+  </standOff>
+  
+  <text>
+    <body>
+      <head></head>
+      <div type="verse">
+        <ab xml:id="test-01" type="knowledgestate" subtype="request">
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="test-02" type="knowledgestate">Text</seg>
+          <seg xml:id="test-03" type="knowledgestate">Text</seg>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

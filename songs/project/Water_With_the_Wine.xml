@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p>I</p></person>
+          <person xml:id="listener"><p></p></person>
+          <person xml:id="POFT"><p>Him</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-01"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-02"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-03"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-04"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-05"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-06"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-07"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-08"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-09"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-10"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-11"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-12"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-13"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#www-14"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#www-15"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-16"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-17"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#www-18"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-19"/>
+      <relation active="#speaker" passive="#listener" type="repetition" subtype="unrelated" ref="#www-20"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#www-21"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#www-22"/>
+      <relation active="#speaker" passive="#listener" type="repetition" subtype="unrelated" ref="#www-23"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <body>
+      <head>
+        
+      </head>
+      <div>
+        <ab>
+          <seg xml:id="www-01" type="knowledgestate" style="color:red">Met him on a Monday</seg>
+          And <seg xml:id="www-02" type="knowledgestate" style="color:red">he said he loved me so</seg>
+          <seg xml:id="www-03" type="knowledgestate" style="color:red">Walked me to my door</seg>
+          <seg xml:id="www-04" type="knowledgestate" style="color:red">Before I knew it to my living room</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          <seg xml:id="www-05" type="knowledgestate" style="color:red">I thought there was no need for worry
+          When he took me in his arms</seg>
+          <seg xml:id="www-06" type="knowledgestate" style="color:red">Drank some whisky</seg>
+          <seg xml:id="www-07" type="knowledgestate" style="color:red">Hung his coat upon the stand</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          <seg xml:id="www-08" type="knowledgestate" style="color:red">That's when the music started</seg>
+          <seg xml:id="www-09" type="knowledgestate" style="color:red">I heard the light switch click</seg>
+          <seg xml:id="www-10" type="knowledgestate" style="color:red">I stumbled on a lost shoe</seg>
+          <seg xml:id="www-11" type="knowledgestate" style="color:red">The fever's starting</seg>
+          <seg xml:id="www-12" type="knowledgestate" style="color:red">This man was getting hot</seg>
+          <seg xml:id="www-13" type="knowledgestate" style="color:red">I got no strength to make him stop</seg>
+          <seg xml:id="www-14" type="knowledgestate" subtype="uncertain" style="color:olive">I guess it's too late</seg>
+          <seg xml:id="www-15" type="knowledgestate" style="color:red">But I'll know next time
+          To mix some water with the wine</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          <seg xml:id="www-16" type="knowledgestate" style="color:red">The sun came pouring in at
+          Five upon my face</seg>
+          <seg xml:id="www-17" type="knowledgestate" style="color:red">I felt the taste of last night's love
+          Upon my lips</seg>
+          <seg xml:id="www-18" type="knowledgestate" subtype="uncertain" style="color:olive">I wasn't sure if I had dreampt it
+          Or had not</seg>
+          <seg xml:id="www-19" type="knowledgestate" style="color:red">But there across the pillow
+          Was the face I had forgot</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          That's when <seg xml:id="www-20" type="knowledgestate" subtype="repetition" style="color:cyan">he said he loved me</seg>
+          <seg xml:id="www-21" type="knowledgestate" subtype="uncertain" style="color:olive">Could be the truth this time</seg>
+          <seg xml:id="www-22" type="knowledgestate" style="color:red">He put his arms about me</seg>
+        </ab>
+      </div>
+      <div>
+        <ab xml:id="23" type="knowledgestate" subtype="repetition" style="color:cyan">
+          Fever's starting
+          This man was getting hot
+          I got no strength to make him stop
+          I guess it's too late
+          But I'll know next time
+          To mix some water with the wine
+        </ab>
+      </div>  
+    </body>
+  </text>
+</TEI>

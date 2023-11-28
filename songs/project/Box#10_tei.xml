@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="assets/transformer.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker" role="active"><p>Country Boy, I</p></person>
+          <person xml:id="listener" role="passive"><p>You</p></person>
+          <person xml:id="POFT" role="passive"><p>Folks back home, mama and dad</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="corraborative" ref="#box-01"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="corraborative" ref="#box-02"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="corraborative" ref="#box-03"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#box-04"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#box-05"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#box-06"/>
+      <relation active="#speaker" passive="#listener" type="persShift" subtype="corraborative" ref="#box-07"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#box-08"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="corraborative" ref="#box-09"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="corraborative" ref="#box-10"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#box-11"/>
+      <relation active="#speaker" passive="#POFT" type="variantRep" subtype="unrelated" ref="#box-12"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="corraborative" ref="#box-13"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="discrepancy" ref="#box-14"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="discrepancy" ref="#box-15"/>
+      <relation active="#speaker" passive="#POFT" type="request" subtype="unrelated" ref="#box-16"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#box-17"/>
+      <relation active="#speaker" passive="#POFT" type="request" subtype="unrelated" ref="#box-18"/>
+      <relation active="#speaker" passive="#listener" type="persShift" subtype="unrelated" ref="#box-19"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="corraborative" ref="#box-20"/>
+      <relation active="#speaker" passive="#listener" type="persShift" subtype="corraborative" ref="#box-21"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#box-22"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#box-23"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="discrepancy" ref="#box-24"/>
+      <relation active="#speaker" passive="#POFT" type="variantRep" subtype="unrelated" ref="#box-25"/>
+      <relation active="#speaker" passive="#POFT" type="repetition" subtype="discrepancy" ref="#box-26"/>
+    </listRelation>
+  </standOff>
+  <text>
+      <body>
+        <div type="track10">
+          <head>Box#10
+          </head>
+          <div type="verse">
+            <ab>
+              Well, <seg xml:id="box-01" type="knowledgeState" style="color:red">out of Southern Illinois
+              Come a down home country boy</seg>
+              <seg xml:id="box-02" type="knowledgeState" style="color:red">He's gonna make it in the city</seg> <seg xml:id="box-03" type="knowledgeState" style="color:red">playin' guitar in the studio</seg>
+              Oh, well, <seg xml:id="box-04" type="knowledgeState" style="color:red">he hadn't been there an hour
+              When he met a Broadway flower</seg>
+              <seg xml:id="box-05" type="knowledgeState" style="color:red">You know she took him for his money,</seg> <seg xml:id="box-06" type="knowledgeState" style="color:red">and she left him in a cheap hotel</seg>
+            </ab>
+          </div>
+          <div type="verse">
+            <ab>
+              Oh, well, it's easy for you to see
+              <seg xml:id="box-07" type="knowledgeState" subtype="persShift" style="color:blue">That that <seg type="pers" style="font-style:italic; font-weight:bold">country boy</seg> is <seg type="pers" style="font-style:italic; font-weight:bold">me</seg></seg>
+              Say, and <seg xml:id="box-08" type="knowledgeState" subtype="uncertain" style="color:olive">how am I gonna ever break the news to the folks back home?</seg>
+              Well, <seg xml:id="box-09" type="knowledgeState" style="color:red">I was gonna be a great success</seg>
+              <seg xml:id="box-10" type="knowledgeState" style="color:red">Things sure ended up a mess</seg>
+              <seg xml:id="box-11" type="knowledgeState" style="color:red">But in the process, I got messed up too</seg>
+            </ab>
+          </div>
+          <div type="chorus">
+            <ab>
+              <seg xml:id="box-12" type="knowledgeState" subtype="variantRep" style="color:green"><seg type="variant" style="font-style:italic; font-weight:bold">But</seg> hello mama and dad, I had to call collect</seg>
+              'Cause <seg xml:id="box-13" type="knowledgeState" style="color:red">I ain't got a cent to my name</seg>
+              Well, <seg xml:id="box-14" type="knowledgeState" style="color:red">I'm a sleepin' in the hotel doorway</seg>
+              <seg xml:id="box-15" type="knowledgeState" style="color:red">And tonight they say it's gonna rain</seg>
+              <seg xml:id="box-16" type="knowledgeState" subtype="request" style="color:purple">And if you'd only send me some money</seg>
+              Oh, <seg xml:id="box-17" type="knowledgeState" style="color:red">I'll be back on my feet again</seg>
+              <seg xml:id="box-18" type="knowledgeState" subtype="request" style="color:purple">Send it in care of the Sunday Mission
+            Box number ten</seg>
+            </ab>
+          </div>
+          <div type="verse">
+            <ab>
+              Well, back in Southern Illinois
+              <seg xml:id="box-19" type="knowledgeState" subtype="persShift" style="color:blue"><seg type="pers" style="font-style:italic; font-weight:bold">They're</seg> still worryin' 'bout <seg type="pers" style="font-style:italic; font-weight:bold">their</seg> <seg type="pers" style="font-style:italic; font-weight:bold">boy</seg></seg>
+              <seg xml:id="box-20" type="knowledgeState" style="color:red">But this boy's goin' home soon as he gets the fare</seg>
+              <seg xml:id="box-21" type="knowledgeState" subtype="persShift" style="color:blue">Because as soon as <seg type="pers" style="font-style:italic; font-weight:bold">I</seg> got <seg type="pers" style="font-style:italic; font-weight:bold">my</seg> bread</seg>
+              <seg xml:id="box-22" type="knowledgeState" style="color:red">I got a pipe upside my head</seg>
+              You know <seg xml:id="box-23" type="knowledgeState" style="color:red">they left me in an alley,</seg> <seg xml:id="box-24" type="knowledgeState" style="color:red">took my money and my guitar too</seg>
+            </ab>
+          </div>
+          <div type="chorus">
+            <ab>
+              <seg xml:id="box-25" type="knowledgeState" subtype="variantRep" style="color:green"><seg type="variant" style="font-style:italic; font-weight:bold">And</seg> hello mama and dad, I had to call collect</seg>
+              <seg xml:id="box-26" type="knowledgeState" subtype="repitetion" style="color:cyan">'Cause I ain't got a cent to my name
+              Well, I'm a-sleepin' in the hotel doorway
+              And tonight they say it's gonna rain
+              And if you'd only send me some money
+              I'll be back on my feet again
+              Send it in care of the Sunday Mission
+            Box number ten</seg>
+            </ab>
+          </div>
+        </div>
+      </body>
+  </text>
+</TEI>

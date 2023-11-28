@@ -1,0 +1,27 @@
+listRelation - relation - active,listRelation - relation - passive,listRelation - relation - type,listRelation - relation - subtype,listRelation - relation - ref
+#speaker,#listener,narration,corraborative,#box-01
+#speaker,#listener,narration,corraborative,#box-02
+#speaker,#listener,narration,corraborative,#box-03
+#speaker,#listener,narration,discrepancy,#box-04
+#speaker,#listener,narration,discrepancy,#box-05
+#speaker,#listener,narration,discrepancy,#box-06
+#speaker,#listener,persShift,corraborative,#box-07
+#speaker,#listener,uncertain,unrelated,#box-08
+#speaker,#listener,narration,corraborative,#box-09
+#speaker,#listener,narration,corraborative,#box-10
+#speaker,#listener,narration,discrepancy,#box-11
+#speaker,#POFT,variantRep,unrelated,#box-12
+#speaker,#POFT,narration,corraborative,#box-13
+#speaker,#POFT,narration,discrepancy,#box-14
+#speaker,#POFT,narration,discrepancy,#box-15
+#speaker,#POFT,request,unrelated,#box-16
+#speaker,#POFT,narration,unrelated,#box-17
+#speaker,#POFT,request,unrelated,#box-18
+#speaker,#listener,persShift,unrelated,#box-19
+#speaker,#listener,narration,corraborative,#box-20
+#speaker,#listener,persShift,corraborative,#box-21
+#speaker,#listener,narration,discrepancy,#box-22
+#speaker,#listener,narration,discrepancy,#box-23
+#speaker,#listener,narration,discrepancy,#box-24
+#speaker,#POFT,variantRep,unrelated,#box-25
+#speaker,#POFT,repetition,discrepancy,#box-26

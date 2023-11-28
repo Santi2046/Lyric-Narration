@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p>I</p></person>
+          <person xml:id="narrator"></person>
+          <person xml:id="listener"><p></p></person>
+          <person xml:id="POFT"><p>She</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-01"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-02"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-03"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-04"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-05"/>
+      <relation active="#narrator" passive="#listener" type="variantRep" subtype="unrelated" ref="#stf-06"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-07"/>
+      <relation active="#speaker" passive="#listener" type="persShift" subtype="unrelated" ref="#stf-08"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-09"/>
+      <relation active="#narrator" passive="#listener" type="persShift" subtype="unrelated" ref="#stf-10"/>
+      <relation active="#narrator" passive="#listener" type="variantRep" subtype="unrelated" ref="#stf-11"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-12"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-13"/>
+      <relation active="#narrator" passive="#listener" type="variantRep" subtype="unrelated" ref="#stf-14"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-15"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-16"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-17"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="discrepancy" ref="#stf-18"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="corraborate" ref="#stf-19"/>
+      <relation active="#narrator" passive="#listener" type="variantRep" subtype="unrelated" ref="#stf-20"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-21"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-22"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#stf-23"/>
+      <relation active="#narrator" passive="#listener" type="uncertain" subtype="unrelated" ref="#stf-24"/>
+      <relation active="#narrator" passive="#listener" type="uncertain" subtype="unrelated" ref="#stf-25"/>
+      <relation active="#narrator" passive="#listener" type="variantRep" subtype="unrelated" ref="#stf-26"/>
+      <relation active="#speaker" passive="#listener" type="persShift" subtype="unrelated" ref="#stf-27"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#stf-28"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#stf-29"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#stf-30"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#stf-31"/>
+      <relation active="#speaker" passive="#listener" type="variantRep" subtype="unrelated" ref="#stf-32"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <body>
+      <head>
+        
+      </head>
+      <div>
+        <ab>
+          <seg xml:id="stf-01" type="knowledgestate" style="color:red">They sat together in the park</seg>
+          <seg xml:id="stf-02" type="knowledgestate" style="color:red">As the evening sky grew dark</seg>
+          <seg xml:id="stf-03" type="knowledgestate" style="color:red">She looked at him and he felt a spark
+          Tingle to his bones</seg>
+          <seg xml:id="stf-04" type="knowledgestate" style="color:red">'Twas then he felt alone</seg>
+          <seg xml:id="stf-05" type="knowledgestate" style="color:red">And wished that he'd gone straight</seg>
+          <seg xml:id="stf-06" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant">And watched out for</seg> a simple twist of fate</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          <seg xml:id="stf-07" type="knowledgestate" style="color:red">They walked alone by the old canal</seg>
+          <seg xml:id="stf-08" type="knowledgestate" subtype="persShift" style="color:blue">A little confused, <seg type="pers">I</seg> remember well</seg>
+          <seg xml:id="stf-09" type="knowledgestate" style="color:red">And stopped into a strange hotel</seg>
+          With a neon burning bright
+          <seg xml:id="stf-10" type="knowledgestate" subtype="persShift" style="color:blue"><seg type="pers">He</seg> felt the heat of the night
+          Hit <seg type="pers">him</seg> like a freight train</seg>
+          <seg xml:id="stf-11" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant">Moving with</seg> a simple twist of fate</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          A saxophone someplace far off played
+          As <seg xml:id="stf-12" type="knowledgestate" style="color:red">she was walking on by the arcade</seg>
+          As the light bust through a beat up shade
+          Where he was waking up
+          <seg xml:id="stf-13">She dropped a coin into the cup</seg>
+          Another blind man at the gate
+          <seg xml:id="stf-14" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant">And forgot about</seg> a simple twist of fate</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          <seg xml:id="stf-15" type="knowledgestate" style="color:red">He woke up</seg>, <seg xml:id="stf-16" type="knowledgestate" style="color:red">the room was bare</seg>
+          <seg xml:id="stf-17" type="knowledgestate" style="color:red">He didn't see her anywhere</seg>
+          <seg xml:id="stf-18">He told himself he didn't care</seg>
+          Pushed the window open wide
+          <seg xml:id="stf-19" type="knowledgestate" style="color:red">Felt an emptiness inside
+          To which he just could not relate</seg>
+          <seg xml:id="stf-20" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant">Brought on by</seg> a simple twist of fate</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          <seg xml:id="stf-21" type="knowledgestate" style="color:red">He hears the ticking of the clocks</seg>
+          <seg xml:id="stf-22" type="knowledgestate" style="color:red">And walks along with a parrot that talks</seg>
+          <seg xml:id="stf-23" type="knowledgestate" style="color:red">Hunts her down by the waterfront docks</seg>
+          Where the sailors all come in
+          <seg xml:id="stf-24" type="knowledgestate" subtype="uncertain" style="color:olive">Maybe she'll pick him out again</seg>
+          <seg xml:id="stf-25" type="knowledgestate" subtype="uncertain" style="color:olive">How long must he wait?</seg>
+          <seg xml:id="stf-26" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant">One more time for</seg> a simple twist of fate</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          <seg xml:id="stf-27" type="knowledgestate" subtype="persShift" style="color:blue">People tell <seg type="pers">me</seg> it's a sin
+          To know and feel too much within</seg>
+          <seg xml:id="stf-28" type="knowledgestate" style="color:red">I still believe she was my twin</seg> <seg xml:id="stf-29" type="knowledgestate" style="color:red">but I lost the ring</seg>
+          <seg xml:id="stf-30" type="knowledgestate" style="color:red">She was born in spring</seg>
+          <seg xml:id="stf-31" type="knowledgestate" style="color:red">But I was born too late</seg>
+          <seg xml:id="stf-32" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant">Blame it on</seg> a simple twist of fate</seg>
+        </ab>
+      </div>  
+    </body>
+  </text>
+</TEI>

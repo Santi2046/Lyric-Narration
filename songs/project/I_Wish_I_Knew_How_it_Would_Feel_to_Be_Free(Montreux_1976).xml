@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p>I</p></person>
+          <person xml:id="performer"><p>Nina Simone</p></person>
+          <person xml:id="listener"><p>You</p></person>
+          <person xml:id="audience"><p>Montreux</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-01"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-02"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-03"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-04"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-05"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#say-06"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-07"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-08"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-09"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-10"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-11"/>
+      <relation active="#speaker" passive="#listener" type="repetition" subtype="unrelated" ref="#say-12"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-13"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-14"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-15"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-16"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#say-17"/>
+      <relation active="#speaker" passive="#listener" type="repetition" subtype="unrelated" ref="#say-18"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#say-19"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-20"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-21"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-22"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-23"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-24"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-25"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-26"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#say-27"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#say-28"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-29"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-30"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-31"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-32"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <body>
+      <head>
+        
+      </head>
+      <div type="verse">
+        <ab>
+          <seg xml:id="fbf-01" type="knowledgestate" style="color:red">Wish I knew how
+            it would feel to be free</seg>
+          <seg xml:id="fbf-02" type="knowledgestate" style="color:red">I wish I could break
+            all the chains that's still binding me</seg>, yeah
+          <seg xml:id="fbf-03" type="knowledgestate" style="color:red">Wish I could say
+            all the things that I can say when I'm relaxed</seg>
+          <seg xml:id="fbf-04" type="knowledgestate" style="color:red">I'd be starting anew</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="fbf-05" type="knowledgestate" style="color:red">I wish I could be
+            like a bird in the sky</seg> <seg xml:id="fbf-06" type="knowledgestate" subtype="performerInsert" style="color:orange">(Don't leave <seg type="pers" style="font-style:italic">me</seg>)</seg>
+          <seg xml:id="fbf-07" type="knowledgestate" style="color:red">How sweet it would be 
+            to find that I could fly</seg>
+          <seg xml:id="fbf-08" type="knowledgestate" style="color:red">I'd soar to the sun</seg>
+          <seg xml:id="fbf-09" type="knowledgestate" style="color:red">and look down at the sea</seg>
+          <seg xml:id="fbf-10" type="knowledgestate" style="color:red">Then I'd sing</seg> '<seg xml:id="fbf-11" type="knowledgestate" style="color:red">cause I know
+            how it feels to be free</seg>
+          <seg xml:id="fbf-12" type="knowledgestate" subtype="repetition" style="color:cyan">Then I'd sing 'cause I know
+            how it feels to be free</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="fbf-13" type="knowledgestate" style="color:red">I wish I could share
+            all the love that's in my heart</seg>
+          <seg xml:id="fbf-14" type="knowledgestate" style="color:red">I wish I could break
+            all things that bind us apart</seg>
+          <seg xml:id="fbf-15" type="knowledgestate" style="color:red">Wish you could know
+            what it means to be me</seg>
+          <seg xml:id="fbf-16" type="knowledgestate" style="color:red">And you'd see, you'd agree,
+            everybody should be free</seg> <seg xml:id="fbf-17" type="knowledgestate" subtype="performerInsert" style="color:orange">('Cause if <seg type="pers" style="font-style:italic">we</seg> ain't <seg type="pers" style="font-style:italic">we'd</seg> be murderers)</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="fbf-18" type="knowledgestate" subtype="repetition" style="color:cyan">Wish I could be
+            like a bird in the sky
+            How sweet it would be
+            if I could find that I could fly
+            Soar to sun, look down at see </seg>
+          and I know, yes I know
+          <seg xml:id="fbf-19" type="knowledgestate" subtype="performerInsert" style="color:orange">(Ah, yeah, spirit's movin' now)</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="fbf-20" type="knowledgestate" style="color:red">I know,</seg>
+          <seg xml:id="fbf-21" type="knowledgestate" style="color:red">I got news for you: I already know</seg>
+          <seg xml:id="fbf-22" type="knowledgestate" style="color:red">Jonathan Livingston's seagull ain't got nothing on me,</seg> free
+          Free, free, free, <seg xml:id="fbf-23" type="knowledgestate" style="color:red">I'm free</seg>,
+          <seg xml:id="fbf-24" type="knowledgestate" style="color:red">and I know it</seg>
+          <seg xml:id="fbf-25" type="knowledgestate" style="color:red">Don't wanna be a- and I show it,</seg>
+          <seg xml:id="fbf-26" type="knowledgestate" style="color:red">but I'm still free</seg>
+          <seg xml:id="fbf-27" type="knowledgestate" subtype="request" style="color:purple">Just believe in me</seg> <seg xml:id="fbf-28" type="knowledgestate" subtype="performerInsert" style="color:orange">(It's alright)</seg>
+          <seg xml:id="fbf-29" type="knowledgestate" style="color:red">And I'd sing,</seg> sing, sing,
+          <seg xml:id="fbf-30" type="knowledgestate" style="color:red">'cause I would know</seg>
+          I already know
+          I already know
+          <seg xml:id="fbf-31" type="knowledgestate" style="color:red">I found out
+          How it feels
+          not to be chained
+          to anything, 
+          to any race, 
+          to any faith, 
+          to any body, 
+          to any greed, 
+          to any hopes, 
+          to any- anything</seg>
+          <seg xml:id="fbf-32" type="knowledgestate" style="color:red">I know how it feels to be free!</seg>
+        </ab>
+      </div>     
+    </body>
+  </text>
+</TEI>

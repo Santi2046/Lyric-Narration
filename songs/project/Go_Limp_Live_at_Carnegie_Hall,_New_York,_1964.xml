@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p>Daughter</p></person>
+          <person xml:id="narrator"/>
+          <person xml:id="listener"/>
+          <person xml:id="performer"><p>Nina Simone</p></person>
+          <person xml:id="audience"><p>Carnegie Hall</p></person>
+          <person xml:id="POFT"><p>Mother</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#POFT" passive="#speaker" type="request" subtype="unrelated" ref="#gol-01"/>
+      <relation active="#POFT" passive="#speaker" type="narration" subtype="corraborated" ref="#gol-02"/>
+      <relation active="#POFT" passive="#speaker" type="narration" subtype="unrelated" ref="#gol-03"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-04"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-05"/>
+      <relation active="#speaker" passive="#POFT" type="persShift" subtype="unrelated" ref="#gol-06"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="discrepancy" ref="#gol-07"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#gol-08"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-09"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-10"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-11"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-12"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-13"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-14"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-15"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-16"/>
+      <relation active="#narrator" passive="#listener" type="persShift" subtype="unrelated" ref="#gol-17"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#gol-18"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-19"/>
+      <relation active="#narrator" passive="#listener" type="repetition" subtype="unrelated" ref="#gol-20"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#gol-21"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-22"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-23"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-24"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-25"/>
+      <relation active="#speaker" passive="#POFT" type="persShift" subtype="unrelated" ref="#gol-26"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#gol-27"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-28"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-29"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-30"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-31"/>
+      <relation active="#narrator" passive="#listener" type="persShift" subtype="unrelated" ref="#gol-32"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#gol-33"/>
+      <relation active="#narrator" passive="#listener" type="narration" subtype="unrelated" ref="#gol-34"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-35"/>
+      <relation active="#speaker" passive="#POFT" type="persShift" subtype="unrelated" ref="#gol-36"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#gol-37"/>
+      <relation active="#performer" passive="#audience" type="performerInsert" subtype="unrelated" ref="#gol-38"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#gol-39"/>
+    </listRelation>
+  </standOff>
+  
+  <text>
+    <body>
+      <head></head>
+      <div type="verse">
+        <ab xml:id="gol-01" type="knowledgestate" subtype="request" style="color:purple">
+          Oh Daughter, dear Daughter
+          Take warning from me
+          And don't you go marching
+          With the N-A-A-C-P
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="gol-02" type="knowledgestate">For they'll rock you and roll you
+          And shove you into bed</seg>
+          <seg xml:id="gol-03" type="knowledgestate">And if they steal your nuclear secrets
+          You'll wish you were dead</seg>
+        </ab>
+      </div>
+      <div type="refrain">
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab>
+          <seg xml:id="gol-04" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">You</seg> get the gist of the song now?</seg>
+          <seg xml:id="gol-05" type="knowledgestate" subtype="performerInsert" style="color:orange">When <seg type="pers" style="font-style:italic">we</seg> get to the chorus again <seg type="pers" style="font-style:italic">I</seg> expect <seg  type="pers" style="font-style:italic">you</seg> to sing with <seg type="pers" style="font-style:italic">us</seg></seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="gol-06" type="knowledgestate" subtype="persShift" style="color:blue">Oh <seg type="pers" style="font-style:italic">Mother</seg>, dear <seg  type="pers" style="font-style:italic">Mother</seg>
+            No, <seg type="pers" style="font-style:italic">I'm</seg> not afraid</seg>
+          <seg xml:id="gol-07" type="knowledgestate" style="color:red">For I'll go on that march
+          And I'll return a virgin maid</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab xml:id="gol-08" type="knowledgestate" style="color:red">
+          With a brick in my handbag
+          And a smile on my face
+          And barbed wire in my underwear
+          To shed off disgrace
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab xml:id="gol-09" type="knowledgestate" subtype="performerInsert" style="color:orange">          
+          Alright now, hootenanny time
+          Come on, <seg type="pers" style="font-style:italic">let's</seg> go
+        </ab>
+      </div>
+      <div type="refrain">
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="performerInterjection">  
+        <ab xml:id="gol-10" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          <seg type="pers" style="font-style:italic">They</seg> didn't get it that time, <seg type="pers" style="font-style:italic">we're</seg> going to do it again
+        </ab>
+      </div>
+      <div type="refrain">  
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="performerInterjection"> 
+        <ab>
+          <seg xml:id="gol-11" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I</seg> forgot the las- next verse</seg>
+          <seg xml:id="gol-12" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I</seg> really did</seg>
+          Hahahahaha 
+          <seg xml:id="gol-13" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I</seg> forgot it</seg>
+          Well, <seg xml:id="gol-14" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I'll</seg> take <seg type="pers" style="font-style:italic">my</seg> time</seg>
+          <seg xml:id="gol-15" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I</seg> told <seg type="pers" style="font-style:italic">you</seg> 'bout <seg type="pers" style="font-style:italic">mama</seg>, didn't <seg type="pers" style="font-style:italic">I</seg>?</seg> Yeah
+          Okay, <seg xml:id="gol-16" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I</seg> got it now</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="gol-17" type="knowledgestate" subtype="persShift" style="color:blue">One day <seg type="pers" style="font-style:italic">they</seg> were marching
+            A <seg type="pers" style="font-style:italic">young man</seg> came by</seg>
+          With a beard on his chin
+          And a gleam in his eye
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="gol-18" type="knowledgestate" style="color:red">And before she had time
+          To remember her brick</seg>
+          <seg xml:id="gol-19" type="knowledgestate" subtype="performerInsert" style="color:orange">Haha</seg>
+          <seg xml:id="gol-20" type="knowledgestate" subtype="repetition">And before she had time ha
+          To remember her brick</seg>
+          <seg xml:id="gol-21" type="knowledgestate">They were holding a sit-down
+          On a nearby hay rig</seg>
+        </ab>
+      </div>
+      <div type="performerInterjection"> 
+        <ab xml:id="gol-22" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          Come on now
+          Now this is the <seg type="pers" style="font-style:italic">audience</seg> participation, come on!
+        </ab>
+      </div>
+      <div type="refrain">
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab  xml:id="gol-23" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          <seg type="pers" style="font-style:italic">Let's</seg> do it again
+        </ab>
+      </div>
+      <div type="refrain">         
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab  xml:id="gol-24" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          That's better that makes up for all the times <seg type="pers" style="font-style:italic">you</seg> went to the bar when <seg type="pers" style="font-style:italic">you</seg> weren't supposed to do it
+          Oh, <seg type="pers" style="font-style:italic">my</seg> goodness
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          For meeting is pleasure
+          And parting is pain
+          <seg xml:id="gol-25" type="knowledgestate" subtype="performerInsert" style="color:orange">And if <seg type="pers" style="font-style:italic">I</seg> have a great concert
+            Maybe <seg type="pers" style="font-style:italic">I</seg> won't have to sing those folk songs again</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="gol-26" type="knowledgestate" subtype="persShift" style="color:blue">Oh <seg type="pers" style="font-style:italic">Mother</seg>, dear <seg type="pers" style="font-style:italic">Mother</seg>
+            <seg type="pers" style="font-style:italic">I'm</seg> stiff and <seg type="pers" style="font-style:italic">I'm</seg> sore</seg>
+          <seg xml:id="gol-27" type="knowledgestate">From sleeping three nights
+          On a hard classroom floor</seg>
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab xml:id="gol-28" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          Come on
+        </ab>
+      </div>
+      <div>
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab xml:id="gol-29" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          Come on
+        </ab>
+      </div>
+      <div type="refrain">
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab>
+          <seg xml:id="gol-30" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I</seg> missed one verse, <seg type="pers" style="font-style:italic">I</seg> forgot which one now</seg>
+          Oh, oh <seg xml:id="gol-31" type="knowledgestate" subtype="performerInsert" style="color:orange"><seg type="pers" style="font-style:italic">I</seg> know what it is</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab xml:id="gol-32" type="knowledgestate" subtype="persShift" style="color:blue">
+          One day at the briefing
+          <seg type="pers" style="font-style:italic">She'd</seg> heard a <seg type="pers" style="font-style:italic">man</seg> say
+          "Go perfectly limp,
+          And be carried away."
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="gol-33" type="knowledgestate" style="color:red">So when this young man suggested
+          It was time she was kissed</seg>
+          <seg xml:id="gol-34" type="knowledgestate" style="color:red">She remembered her brief
+          And did not resist</seg>
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab xml:id="gol-35" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          <seg type="pers" style="font-style:italic">Let's</seg> go
+        </ab>
+      </div>
+      <div type="refrain">
+        <ab>
+          Singin', "too-roo-la, too-roo-la, too-roo-li-ay"
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="gol-36" type="knowledgestate" subtype="persShift" style="color:blue">Oh mother, dear mother
+          No need for distress</seg>
+          <seg xml:id="gol-37" type="knowledgestate" style="color:red">For the young man has left me
+          His name and address</seg>
+        </ab>
+      </div>
+      <div type="performerInterjection">
+        <ab xml:id="gol-38" type="knowledgestate" subtype="performerInsert" style="color:orange">
+          Hmm What a funny song
+        </ab>
+      </div>
+      <div type="verse">
+        <ab xml:id="gol-39" type="knowledgestate" style="color:red">
+          And if we win
+          Tho' a baby there be
+          He won't have to march
+          Like his da-da and me
+        </ab>
+      </div>     
+    </body>
+  </text>
+</TEI>

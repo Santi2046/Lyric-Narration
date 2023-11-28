@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p>I</p></person>
+          <person xml:id="listener"><p>You</p></person>
+          <person xml:id="POFT"><p>Her</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#say-01"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#say-05"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#say-12"/>
+      <relation active="#speaker" passive="#listener" type="request" subtype="unrelated" ref="#say-22"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#say-02"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#say-04"/>
+      <relation active="#speaker" passive="#listener" type="uncertain" subtype="unrelated" ref="#say-06"/>      
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-03"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-07"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-08"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-09"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-10"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-11"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-13"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-14"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-15"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-16"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-17"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-18"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-19"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-20"/>
+      <relation active="#speaker" passive="#listener" type="narration" subtype="unrelated" ref="#say-21"/>
+      <relation active="#listener" passive="#POFT" type="request" subtype="unrelated" ref="#say-01"/>
+      <relation active="#listener" passive="#POFT" type="request" subtype="unrelated" ref="#say-12"/>
+      <relation active="#listener" passive="#POFT" type="request" subtype="unrelated" ref="#say-22"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <body>
+      <head>
+        
+      </head>
+      <div type="verse">
+        <ab>
+          <seg xml:id="say-01" type="knowledgestate" subtype="request" style="color:purple">If you see her, say hello</seg>
+          <seg xml:id="say-02" type="knowledgestate" subtype="uncertain" style="color:olive">She might be in Tangier</seg>
+          <seg xml:id="say-03" type="knowledgestate" style="color:red">She left here last early spring</seg>
+          <seg xml:id="say-04" type="knowledgestate" subtype="uncertain" style="color:olive">Is livin' there, I hear</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="say-05" type="knowledgestate" subtype="request" style="color:purple">Say for me that I'm all right</seg>
+          Though things get kind of slow
+          <seg xml:id="say-06" type="knowledgestate" subtype="uncertain" style="color:olive">She might think that I've forgotten her</seg>
+          <seg xml:id="say-07" type="knowledgestate" subtype="request" style="color:purple">Don't tell her it isn't so</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="say-08" type="knowledgestate" style="color:red">We had a falling-out</seg>
+          Like lovers often will
+          And to think of how she left that night
+          <seg xml:id="say-09" type="knowledgestate" style="color:red">It still brings me a chill</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          And though our separation
+          <seg xml:id="say-10" type="knowledgestate" style="color:red">It pierced me to the heart</seg>
+          <seg xml:id="say-11" type="knowledgestate" style="color:red">She still lives inside of me
+          We've never been apart</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="say-12" type="knowledgestate" subtype="request" style="color:purple">If you get close to her
+          Kiss her once for me</seg>
+          <seg xml:id="say-13" type="knowledgestate" style="color:red">Always have respected her
+          For doin' what she did and gettin' free</seg>
+        </ab>
+      </div>
+      <div>
+        <ab>
+          Oh, whatever makes her happy
+          <seg xml:id="say-14" type="knowledgestate" style="color:red">I won't stand in the way</seg>
+          <seg xml:id="say-15" type="knowledgestate" style="color:red">Though the bitter taste still lingers on
+          From the night I tried to make her stay</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          I see a lot of people
+          As I make the rounds
+          And <seg xml:id="say-16" type="knowledgestate" style="color:red">I hear her name here and there
+          As I go from town to town</seg>
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="say-17" type="knowledgestate" style="color:red">And I've never gotten used to it</seg>
+          <seg xml:id="say-18" type="knowledgestate" style="color:red">I've just learned to turn it off</seg>
+          Either I'm too sensitive
+          Or else I'm gettin' soft
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          Sundown, yellow moon
+          <seg xml:id="say-19" type="knowledgestate" style="color:red">I replay the past</seg>
+          <seg xml:id="say-20" type="knowledgestate" style="color:red"> I know every scene by heart</seg>
+          They all went by so fast
+        </ab>
+      </div>
+      <div type="verse">
+        <ab>
+          <seg xml:id="say-21" type="knowledgestate" style="color:red">If she's passin' back this way
+          I'm not that hard to find</seg>
+          <seg xml:id="say-22" type="knowledgestate" subtype="request" style="color:purple">Tell her she can look me up
+          If she's got the time</seg>
+        </ab>
+      </div>  
+    </body>
+  </text>
+</TEI>

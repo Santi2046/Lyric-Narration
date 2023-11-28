@@ -1,0 +1,24 @@
+listRelation - relation - active,listRelation - relation - passive,listRelation - relation - type,listRelation - relation - subtype,listRelation - relation - ref
+#speaker,#listener,request,unrelated,#opt-01
+#speaker,#listener,narration,discrepancy,#opt-02
+#speaker,#listener,narration,corraborate,#opt-03
+#speaker,#listener,narration,unrelated,#opt-04
+#speaker,#listener,uncertain,unrelated,#opt-05
+#speaker,#listener,request,unrelated,#opt-06
+#speaker,#listener,request,unrelated,#opt-07
+#speaker,#listener,narration,unrelated,#opt-08
+#speaker,#listener,narration,discrepacy,#opt-09
+#speaker,#listener,narration,unrelated,#opt-10
+#speaker,#listener,narration,unrelated,#opt-11
+#speaker,#listener,request,unrelated,#opt-12
+#speaker,#listener,narration,discrepancy,#opt-13
+#speaker,#listener,narration,unrelated,#opt-14
+#speaker,#listener,narration,unrelated,#opt-15
+#speaker,#listener,repetition,unrelated,#opt-16
+#speaker,#listener,repetition,unrelated,#opt-17
+#speaker,#listener,request,unrelated,#opt-18
+#speaker,#listener,narration,discrepancy,#opt-19
+#speaker,#listener,narration,unrelated,#opt-20
+#speaker,#listener,narration,unrelated,#opt-21
+#speaker,#listener,narration,unrelated,#opt-22
+#speaker,#listener,repetition,unrelated,#opt-23

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Down to Zero</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="speaker"><p>You, unnamed</p></person>
+          <person xml:id="listener"><p>You</p></person>
+          <person xml:id="POFT"><p>You, your man, your mother's only son</p></person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-01"/>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-02"/>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-03"/>
+      <relation active="#speaker" passive="#speaker" type="variantRep" subtype="unrelated" ref="#dtz-04"/>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-05"/>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-06"/>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-07"/>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-08"/>
+      <relation active="#speaker" passive="#speaker" type="narration" subtype="unrelated" ref="#dtz-09"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-08"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-09"/>
+      <relation active="#speaker" passive="#POFT" type="persShift" subtype="unrelated" ref="#dtz-10"/>
+      <relation active="#speaker" passive="#POFT" type="variantRep" subtype="unrelated" ref="#dtz-11"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-12"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-13"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-14"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-15"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-16"/>
+      <relation active="#speaker" passive="#POFT" type="narration" subtype="unrelated" ref="#dtz-17"/>
+      <relation active="#speaker" passive="#POFT" type="variantRep" subtype="unrelated" ref="#dtz-18"/>
+      <relation active="#speaker" passive="#POFT" type="repetition" subtype="unrelated" ref="#dtz-19"/>
+      <relation active="#speaker" passive="#POFT" type="repetition" subtype="unrelated" ref="#dtz-20"/>
+      <relation active="#speaker" passive="#POFT" type="repetition" subtype="unrelated" ref="#dtz-21"/>
+      <relation active="#speaker" passive="#POFT" type="repetition" subtype="unrelated" ref="#dtz-22"/>
+    </listRelation>
+  </standOff>
+  <text>
+      <body>
+        <div type="track1">
+          <head>Down to Zero</head>
+          <div type="prechorus">
+            <ab>
+              <seg xml:id="dtz-01" type="knowledgestate" style="color:red">Oh the feeling
+              When you're reeling</seg>
+              <seg xml:id="dtz-02">You step lightly thinking you're number one</seg>
+              <seg xml:id="dtz-03" type="knowledgestate" style="color:red">Down to zero with a word
+              Leaving
+              For another one</seg>
+            </ab>
+          </div>
+          <div type="chorus">
+            <ab>
+              <seg xml:id="dtz-04" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant" style="font-style:italic">Now you walk with your feet back on the ground</seg>
+              Down to the ground
+              Down to the ground
+              Down to the ground
+              Down to the ground</seg>
+            </ab>
+          </div>
+          <div type="verse">
+            <ab>
+              Brand new dandy
+              <seg xml:id="dtz-05" type="knowledgestate" style="color:red">First class scene stealer
+              Walks through the crowd and takes your man</seg>
+              <seg xml:id="dtz-06" type="knowledgestate" style="color:red">Sends you rushing to the mirror</seg>
+              <seg xml:id="dtz-07" type="knowledgestate" style="color:red">Brush your eyebrows and say
+              There's more beauty in you than anyone</seg>
+            </ab>
+          </div>
+          <div type="verse">
+            <ab>
+              <seg xml:id="dtz-08" type="knowledgestate" subtype="persShift" style="color:blue">Oh remember who walked the warm sands beside <seg type="pers">you</seg>
+              Moored to <seg type="pers">your</seg> heel let the waves come a rushing in</seg>
+              <seg xml:id="dtz-09" type="knowledgestate" subtype="persShift" style="color:blue"><seg type="pers" style="font-style:italic">She'll</seg> take the worry from <seg type="pers" style="font-style:italic">your</seg> head</seg>
+              But then again
+              <seg xml:id="dtz-10" type="knowledgestate" subtype="persShift" style="color:blue"><seg type="pers">She</seg> put trouble in <seg type="pers" style="font-style:italic">your</seg> heart instead</seg>
+              <seg xml:id="dtz-11" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant" style="font-style:italic">Then you'll fall</seg>
+              Down to the ground
+              Down to the ground</seg>
+            </ab>
+          </div>
+          <div type="prechorus2">
+            <ab>
+              <seg xml:id="dtz-12" type="knowledgestate" style="color:red">You'll know heartache</seg>
+              <seg xml:id="dtz-13" type="knowledgestate" style="color:red">Still more crying
+              When you're thinking of your mother's only son</seg>
+              <seg xml:id="dtz-14" type="knowledgestate" style="color:red">Take to your bed</seg>
+              <seg xml:id="dtz-15" type="knowledgestate" style="color:red">You say there's peace in sleep</seg>
+              <seg xml:id="dtz-16" type="knowledgestate" style="color:red">But you'll dream of love instead</seg>
+            </ab>
+          </div>
+          <div type="chorus2">
+            <ab>
+              <seg xml:id="dtz-17" type="knowledgestate" style="color:red">Oh the heartache you'll find
+              Can bring more pain than a blistering sun</seg>
+              <seg xml:id="dtz-18" type="knowledgestate" subtype="variantRep" style="color:green"><seg type="variant" style="font-style:italic">But oh when you fall</seg>
+              Oh when you fall
+              Fall at my door</seg>
+            </ab>
+          </div>
+          <div type="prechrous">
+            <ab xml:id="dtz-19" type="knowledgestate" subtype="repetition" style="color:cyan">
+              Oh the feeling
+              When you're reeling
+              You step lightly thinking you're number one
+              Down to zero with a word
+              Leaving
+              For another one
+            </ab>
+          </div>
+          <div type="chorus">
+            <ab xml:id="dtz-20" type="knowledgestate" subtype="repetition" style="color:cyan">
+              Now you walk with your feet back on the ground
+              Down to the ground
+              Down to the ground
+              Down to the ground
+              Down to the ground
+            </ab>
+          </div>
+          <div type="prechorus2">
+            <ab xml:id="dtz-21" type="knowledgestate" subtype="repetition" style="color:cyan">
+              You'll know heartache
+              Still more crying
+              When you're thinking of your mother's only son
+              Take to your bed
+              You say there's peace in sleep
+              But you'll dream of love instead
+            </ab>
+          </div>
+          <div type="chorus2">
+            <ab xml:id="dtz-22" type="knowledgestate" subtype="repetition" style="color:cyan">
+              But oh when you fall
+              Oh when you fall
+              Fall at my door
+            </ab>
+          </div>
+        </div>
+      </body>
+  </text>
+</TEI>
